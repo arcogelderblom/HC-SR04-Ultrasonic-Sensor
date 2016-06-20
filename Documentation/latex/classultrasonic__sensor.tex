@@ -1,0 +1,58 @@
+\hypertarget{classultrasonic__sensor}{}\section{ultrasonic\+\_\+sensor Class Reference}
+\label{classultrasonic__sensor}\index{ultrasonic\+\_\+sensor@{ultrasonic\+\_\+sensor}}
+
+
+Ultrasonic Sensor class.  
+
+
+
+
+{\ttfamily \#include $<$ultrasonicsensor.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classultrasonic__sensor_af394bc7e9ab31db01f37e08d7ee0f2eb}{ultrasonic\+\_\+sensor} (due\+::pin\+\_\+out trig, due\+::pin\+\_\+in echo)
+\begin{DoxyCompactList}\small\item\em Constructor ultrasonic sensor. \end{DoxyCompactList}\item 
+int \hyperlink{classultrasonic__sensor_a3365931510d22b8d887b2073fadf2a9d}{get\+\_\+distance} ()
+\begin{DoxyCompactList}\small\item\em Get a distance reading from the sensor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Ultrasonic Sensor class. 
+
+This class sets up everything to get a distance from a ultrasonic sensor (H\+C-\/\+S\+R04). 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{ultrasonic\+\_\+sensor@{ultrasonic\+\_\+sensor}!ultrasonic\+\_\+sensor@{ultrasonic\+\_\+sensor}}
+\index{ultrasonic\+\_\+sensor@{ultrasonic\+\_\+sensor}!ultrasonic\+\_\+sensor@{ultrasonic\+\_\+sensor}}
+\subsubsection[{\texorpdfstring{ultrasonic\+\_\+sensor(due\+::pin\+\_\+out trig, due\+::pin\+\_\+in echo)}{ultrasonic_sensor(due::pin_out trig, due::pin_in echo)}}]{\setlength{\rightskip}{0pt plus 5cm}ultrasonic\+\_\+sensor\+::ultrasonic\+\_\+sensor (
+\begin{DoxyParamCaption}
+\item[{due\+::pin\+\_\+out}]{trig, }
+\item[{due\+::pin\+\_\+in}]{echo}
+\end{DoxyParamCaption}
+)}\hypertarget{classultrasonic__sensor_af394bc7e9ab31db01f37e08d7ee0f2eb}{}\label{classultrasonic__sensor_af394bc7e9ab31db01f37e08d7ee0f2eb}
+
+
+Constructor ultrasonic sensor. 
+
+Setup everything for the ultrasonic sensor to get a distance when needed 
+
+\subsection{Member Function Documentation}
+\index{ultrasonic\+\_\+sensor@{ultrasonic\+\_\+sensor}!get\+\_\+distance@{get\+\_\+distance}}
+\index{get\+\_\+distance@{get\+\_\+distance}!ultrasonic\+\_\+sensor@{ultrasonic\+\_\+sensor}}
+\subsubsection[{\texorpdfstring{get\+\_\+distance()}{get_distance()}}]{\setlength{\rightskip}{0pt plus 5cm}int ultrasonic\+\_\+sensor\+::get\+\_\+distance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classultrasonic__sensor_a3365931510d22b8d887b2073fadf2a9d}{}\label{classultrasonic__sensor_a3365931510d22b8d887b2073fadf2a9d}
+
+
+Get a distance reading from the sensor. 
+
+Set the trigger to start a pulse. Wait for the echo start returning a /// pulse and count how long the returning pulse is. Than calculate the /// distance and return this as a int for further use. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ultrasonicsensor_8hpp}{ultrasonicsensor.\+hpp}\item 
+ultrasonicsensor.\+cpp\end{DoxyCompactItemize}
