@@ -1,0 +1,7 @@
+exclude:
+- /Documentation/html/.*
+- /hwlib/.*
+component_depth: 1
+languages:
+- cpp
+- javascript
